@@ -40,7 +40,7 @@ def respond(message):
 					photo_name = data["output"]["text"][1]
 					photo = open("/"+photo_name+".png", 'rb')
 					bot.send_photo(message.chat.id, photo)
-					output = "امزح هههههههههه"
+					
 				else:	
 					output = data["output"]["text"][1]
 			else:		
